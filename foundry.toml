@@ -8,3 +8,13 @@ script = "challenges/Freebie/script"
 [profile.tutorial]
 src = "challenges/Tutorial/src"
 script = "challenges/Tutorial/script"
+
+[profile.reverse-rugpull]
+solc_version = "0.8.20"
+src = "challenges/ReverseRugPull/src"
+script = "challenges/ReverseRugPull/script"
+
+[profile.under-the-flow]
+solc_version = "0.7.0"
+src = "challenges/UnderTheFlow/src"
+script = "challenges/UnderTheFlow/script"
