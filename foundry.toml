@@ -18,3 +18,12 @@ script = "challenges/ReverseRugPull/script"
 solc_version = "0.7.0"
 src = "challenges/UnderTheFlow/src"
 script = "challenges/UnderTheFlow/script"
+
+[profile.wrapped-ether]
+solc_version = "0.8.20"
+src = "challenges/WrappedEther/src"
+script = "challenges/WrappedEther/script"
+
+[profile.please-sign-here]
+src = "challenges/PleaseSignHere/src"
+script = "challenges/PleaseSignHere/script"
