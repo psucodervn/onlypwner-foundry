@@ -1,0 +1,10 @@
+[profile.default]
+solc_version = "0.8.19"
+
+[profile.freebie]
+src = "challenges/Freebie/src"
+script = "challenges/Freebie/script"
+
+[profile.tutorial]
+src = "challenges/Tutorial/src"
+script = "challenges/Tutorial/script"

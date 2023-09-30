@@ -1,0 +1,7 @@
+cache
+out
+.env
+.gas-snapshot
+broadcast
+**/.DS_Store
+challenges/**/Solve.sol
