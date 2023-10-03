@@ -5,3 +5,4 @@ out
 broadcast
 **/.DS_Store
 challenges/**/Solve.sol
+state

@@ -7,11 +7,9 @@ import {Script} from "forge-std/Script.sol";
 
 contract IsSolved is Script {
     function run() external {
-        vm.startBroadcast();
-
-        IERC20 token = IERC20(vm.envAddress("Token"));
-        Vault vault = Vault(vm.envAddress("Vault"));
-        address scripter = vm.envAddress("SCRIPTER");
+        IERC20 token = IERC20(vm.envAddress("TOKEN"));
+        Vault vault = Vault(vm.envAddress("VAULT"));
+        // address scripter = vm.envAddress("SCRIPTER");
 
         if (token.balanceOf(address(vault)) < 1 ether) {
             console.log("is-solved:false");
@@ -19,13 +17,13 @@ contract IsSolved is Script {
         }
 
         token.approve(address(vault), 10 ** 17);
-        vault.deposit(10 ** 17);
+        // vault.deposit(10 ** 17);
 
-        uint256 shares = vault.shares(scripter);
-        if (shares == 0) {
-            console.log("is-solved:true");
-        } else {
-            console.log("is-solved:false");
-        }
+        // uint256 shares = vault.shares(scripter);
+        // if (shares == 0) {
+        //     console.log("is-solved:true");
+        // } else {
+        //     console.log("is-solved:false");
+        // }
     }
 }

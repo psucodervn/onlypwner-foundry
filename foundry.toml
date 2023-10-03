@@ -11,8 +11,8 @@ script = "challenges/Tutorial/script"
 
 [profile.reverse-rugpull]
 solc_version = "0.8.20"
-src = "challenges/ReverseRugPull/src"
-script = "challenges/ReverseRugPull/script"
+src = "challenges/ReverseRugpull/src"
+script = "challenges/ReverseRugpull/script"
 
 [profile.under-the-flow]
 solc_version = "0.7.0"
@@ -27,3 +27,13 @@ script = "challenges/WrappedEther/script"
 [profile.please-sign-here]
 src = "challenges/PleaseSignHere/src"
 script = "challenges/PleaseSignHere/script"
+
+[profile.all-or-nothing]
+solc_version = "0.8.20"
+src = "challenges/AllOrNothing/src"
+script = "challenges/AllOrNothing/script"
+
+[profile.shapeshifter]
+solc_version = "0.8.20"
+src = "challenges/Shapeshifter/src"
+script = "challenges/Shapeshifter/script"
