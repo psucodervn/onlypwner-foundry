@@ -37,3 +37,8 @@ script = "challenges/AllOrNothing/script"
 solc_version = "0.8.20"
 src = "challenges/Shapeshifter/src"
 script = "challenges/Shapeshifter/script"
+
+[profile.payday]
+solc_version = "0.8.20"
+src = "challenges/Payday/src"
+script = "challenges/Payday/script"
