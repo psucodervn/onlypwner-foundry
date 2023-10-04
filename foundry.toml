@@ -42,3 +42,8 @@ script = "challenges/Shapeshifter/script"
 solc_version = "0.8.20"
 src = "challenges/Payday/src"
 script = "challenges/Payday/script"
+
+[profile.13th-airdrop]
+solc_version = "0.8.13"
+src = "challenges/13thAirdrop/src"
+script = "challenges/13thAirdrop/script"
