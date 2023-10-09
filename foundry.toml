@@ -47,3 +47,9 @@ script = "challenges/Payday/script"
 solc_version = "0.8.13"
 src = "challenges/13thAirdrop/src"
 script = "challenges/13thAirdrop/script"
+
+[profile.bridge-takeover]
+solc_version = "0.8.20"
+src = "challenges/BridgeTakeover/src"
+script = "challenges/BridgeTakeover/script"
+test = "challenges/BridgeTakeover/test"
